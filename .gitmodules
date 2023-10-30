@@ -1,0 +1,6 @@
+[submodule "API_AlLoRa"]
+	path = API_AlLoRa
+	url = https://github.com/sofiamanana/API_AlLoRa.git
+[submodule "AlLoRaPage"]
+	path = AlLoRaPage
+	url = https://github.com/sofiamanana/AlLoRaPage.git

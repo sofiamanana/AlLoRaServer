@@ -3,7 +3,7 @@ services:
   servicio1:
     container_name: api_allora
     build: 
-      context: apiallora
+      context: API_AlLoRa
       dockerfile: Dockerfile.apiallora
     ports:
       - 8004:8004
@@ -13,7 +13,7 @@ services:
   servicio2:
     container_name: allora_page
     build:
-      context: allora_page
+      context: AlLoRaPage
       dockerfile: Dockerfile.page
     environment:
       - PORT_API=8004

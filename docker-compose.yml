@@ -7,6 +7,13 @@ services:
       dockerfile: Dockerfile.apiallora
     ports:
       - 8004:8004
+    devices:
+      - /dev/ttyAMA3:/dev/ttyAMA3
+    environment:
+      - SERIAL_PATH=/dev/ttyAMA3
+      - ALLORA_FILES=/allora_files
+    volumes:
+      - /home/rak/AlLoRa_files:/allora_files
     networks:
       - mi_red
     
